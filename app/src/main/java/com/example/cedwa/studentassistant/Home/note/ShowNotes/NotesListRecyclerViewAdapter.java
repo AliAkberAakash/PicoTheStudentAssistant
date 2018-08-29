@@ -125,6 +125,7 @@ public class NotesListRecyclerViewAdapter extends RecyclerView.Adapter<CustomNot
         }
         else
         {
+            //thi is a comment
             Toast.makeText(context, "Sorry something went wrong!", Toast.LENGTH_SHORT).show();
         }
     }
