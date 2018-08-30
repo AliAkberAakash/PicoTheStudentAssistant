@@ -15,7 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 
-import com.example.cedwa.studentassistant.Home.Contact.Contacts;
+import com.example.cedwa.studentassistant.Home.Contact.ShowContatcs.ContactsFragment;
 import com.example.cedwa.studentassistant.Home.Routine.Routines;
 import com.example.cedwa.studentassistant.Home.note.ShowNotes.NotesFragment;
 import com.example.cedwa.studentassistant.R;
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.contacts:
-                fragment = new Contacts();
+                fragment = new ContactsFragment();
                 break;
 
             case R.id.notes:

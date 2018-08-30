@@ -64,10 +64,9 @@
     <string name="positive_button">OK</string>
     <string name="cancel_button">Cancel</string>
 
-    <!--Contacts related strings-->
-    <string name="name">Name</string>
-    <string name="phone">Phone no</string>
-    <string name="email">Email</string>
-    <string name="address">Address</string>
+    <!--ContactsFragment related strings-->
+    <string name="teachers">Teachers</string>
+    <string name="classmates">Classmates</string>
+    <string name="others">Others</string>
 
 </resources>

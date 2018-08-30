@@ -8,5 +8,8 @@
     <color name="routine_bg">#fff</color>
     <color name="white">#fff</color>
     <color name="black">#000</color>
+    <color name="shade1">#9572e1</color>
+    <color name="shade2">#b497f2</color>
+    <color name="shade3">#cdbcf4</color>
 
 </resources>

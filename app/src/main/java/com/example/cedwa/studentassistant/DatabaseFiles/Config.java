@@ -52,4 +52,28 @@ public class Config {
                                                     NOTES_TITLE+" TEXT, "+
                                                     NOTES_DESCRIPTION+" TEXT )";
 
+    /*
+     *Information for Contacts Table
+     */
+
+    //Table name for Notes
+    public static final String TABLE_CONTACTS = "contacts";
+
+    //column name for Notes
+    public static final String CONTACTS_ID = "_id";
+    public static final String CONTACTS_IMAGE_PATH = "image";
+    public static final String CONTACTS_NAME = "name";
+    public static final String CONTACTS_PHONE = "phone";
+    public static final String CONTACTS_EMAIL = "email";
+    public static final String CONTACTS_TYPE = "'type";
+    
+    //create Notes Table
+    public static final String CREATE_TABLE_CONTACTS = "CREATE TABLE "+TABLE_CONTACTS+"("+
+            CONTACTS_ID+" INTEGER PRIMARY KEY AUTOINCREMENT, "+
+            CONTACTS_IMAGE_PATH+" TEXT, "+
+            CONTACTS_NAME+" TEXT, "+
+            CONTACTS_PHONE+" TEXT, "+
+            CONTACTS_EMAIL+" TEXT, "+
+            CONTACTS_TYPE+" TEXT )";
+
 }
