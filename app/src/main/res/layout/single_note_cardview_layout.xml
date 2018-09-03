@@ -32,6 +32,8 @@
             app:layout_constraintVertical_bias="0.8" />
 
         <TextView
+            android:maxLines="3"
+            android:ellipsize="end"
             android:id="@+id/description_text_view_id"
             android:layout_width="match_parent"
             android:layout_height="60dp"

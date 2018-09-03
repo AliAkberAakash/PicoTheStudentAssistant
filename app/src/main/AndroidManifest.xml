@@ -29,13 +29,16 @@
             android:theme="@style/AppTheme.Launcher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Home.MainActivity" />
+
+        <activity android:name=".Home.MainActivity"
+
+            />
         <activity android:name=".Home.Contact.ShowContatcs.ContactDetailsActivity" />
-        <activity android:name=".Home.Contact.ShowContatcs.ContactList"></activity>
+        <activity android:name=".Home.Contact.ShowContatcs.ContactList"/>
+
     </application>
 
 </manifest>

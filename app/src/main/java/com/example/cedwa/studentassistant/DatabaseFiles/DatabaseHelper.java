@@ -39,6 +39,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(Config.CREATE_TABLE_NOTES);
         Logger.d("Table create SQL: " + Config.CREATE_TABLE_NOTES);
 
+        db.execSQL(Config.CREATE_TABLE_CONTACTS);
+        Logger.d("Table create SQL: " + Config.CREATE_TABLE_CONTACTS);
+
         Logger.d("DB created!");
 
     }

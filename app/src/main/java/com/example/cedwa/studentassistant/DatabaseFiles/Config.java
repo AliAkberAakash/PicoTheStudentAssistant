@@ -65,7 +65,7 @@ public class Config {
     public static final String CONTACTS_NAME = "name";
     public static final String CONTACTS_PHONE = "phone";
     public static final String CONTACTS_EMAIL = "email";
-    public static final String CONTACTS_TYPE = "'type";
+    public static final String CONTACTS_TYPE = "type";
     
     //create Notes Table
     public static final String CREATE_TABLE_CONTACTS = "CREATE TABLE "+TABLE_CONTACTS+"("+
