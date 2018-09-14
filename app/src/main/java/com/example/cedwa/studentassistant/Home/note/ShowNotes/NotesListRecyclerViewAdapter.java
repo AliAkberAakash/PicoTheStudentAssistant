@@ -45,7 +45,7 @@ public class NotesListRecyclerViewAdapter extends RecyclerView.Adapter<CustomNot
     }
 
     @Override
-    public void onBindViewHolder(CustomNotesViewHolder holder, final int position) {
+    public void onBindViewHolder(CustomNotesViewHolder holder,  int position) {
 
         final int itemPosition = position;
         final NotesStructure notesStructure = notesStructureList.get(position);
@@ -63,7 +63,7 @@ public class NotesListRecyclerViewAdapter extends RecyclerView.Adapter<CustomNot
                         .getInstance(notesStructure.getId(), new UpdateNotesDialogFragmentListener() {
                             @Override
                             public void onNotesUpdated(NotesStructure notesStructurePassed) {
-                                notesStructureList.set(position,notesStructurePassed);
+                                notesStructureList.set(itemPosition,notesStructurePassed);
                                 notifyDataSetChanged();
                             }
                         });
@@ -86,7 +86,7 @@ public class NotesListRecyclerViewAdapter extends RecyclerView.Adapter<CustomNot
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface arg0, int arg1) {
-                                deleteStudent(itemPosition);
+                                deleteNote(itemPosition);
                             }
                         });
 
@@ -110,7 +110,7 @@ public class NotesListRecyclerViewAdapter extends RecyclerView.Adapter<CustomNot
         return notesStructureList.size();
     }
 
-    public void deleteStudent(int position)
+    public void deleteNote(int position)
     {
         NotesStructure notesStructure = notesStructureList.get(position);
 
